@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CucumberMS4">
+
+<listeners>
+<listener class-name="BDD.MS4.listeners"></listener>
+<listener class-name="resources.ExtentReporterNG"></listener>
+</listeners>
+  <test name="Marriot">
+    <classes>
+      <class name="cucumberOptions.TestRunner"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
